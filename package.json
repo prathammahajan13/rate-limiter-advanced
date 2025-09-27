@@ -1,0 +1,232 @@
+{
+  "name": "@pm/rate-limiter-advanced",
+  "version": "1.0.0",
+  "description": "Security-focused IP-based rate limiter for detecting and banning hackers, bots, and malicious users. Features automatic IP banning, threat detection, analytics, and multi-channel alerts.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "examples/",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "npm run build"
+  },
+  "keywords": [
+    "rate-limit",
+    "rate-limiting",
+    "ip-ban",
+    "ip-banning",
+    "hacker-detection",
+    "bot-detection",
+    "security",
+    "threat-detection",
+    "malicious-users",
+    "redis",
+    "express",
+    "middleware",
+    "analytics",
+    "monitoring",
+    "ban-management",
+    "whitelist",
+    "blacklist",
+    "geolocation",
+    "user-agent",
+    "notifications",
+    "slack",
+    "email",
+    "webhook",
+    "escalation",
+    "database",
+    "sequelize",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "typescript",
+    "enterprise",
+    "production",
+    "high-performance",
+    "distributed",
+    "clustering",
+    "real-time",
+    "dashboard",
+    "reporting",
+    "metrics",
+    "statistics",
+    "performance",
+    "scalability",
+    "reliability",
+    "security-tools",
+    "cybersecurity",
+    "ddos-protection",
+    "brute-force-protection",
+    "api-security",
+    "web-security",
+    "application-security"
+  ],
+  "author": {
+    "name": "Pratham Mahajan",
+    "email": "mahajanpratham88@gmail.com",
+    "url": "https://github.com/prathammahajan13",
+    "buyMeACoffee": "https://buymeacoffee.com/mahajanprae"
+  },
+  "contributors": [
+    {
+      "name": "Pratham Mahajan",
+      "email": "mahajanpratham88@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "https://www.npmjs.com/~prathammahajan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathammahajan13/rate-limiter-advanced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prathammahajan13/rate-limiter-advanced/issues",
+    "email": "mahajanpratham88@gmail.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/mahajanprae"
+  },
+  "engines": {
+    "node": ">=22.11.0",
+    "npm": ">=9.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "dependencies": {
+    "@slack/web-api": "^6.10.0",
+    "axios": "^1.6.0",
+    "debug": "^4.3.4",
+    "express": ">=4.0.0",
+    "geoip-lite": "^1.4.0",
+    "joi": "^17.11.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "nodemailer": "^6.9.0",
+    "redis": "^4.6.0",
+    "sequelize": "^6.35.0",
+    "user-agents": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/express": "^4.17.21",
+    "@types/geoip-lite": "^1.4.4",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.0",
+    "@types/nodemailer": "^6.4.14",
+    "@types/user-agents": "^1.0.4",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": false
+    }
+  },
+  "optionalDependencies": {
+    "mysql2": "^3.6.0",
+    "pg": "^8.11.0",
+    "sqlite3": "^5.1.0"
+  },
+  "bundledDependencies": [],
+  "bundleDependencies": [],
+  "deprecated": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "config": {
+    "port": 3000,
+    "host": "localhost"
+  },
+  "preferGlobal": false,
+  "private": false,
+  "gypfile": false,
+  "readme": "README.md",
+  "readmeFilename": "README.md",
+  "man": [],
+  "directories": {
+    "lib": "dist",
+    "bin": "bin",
+    "man": "man",
+    "doc": "docs",
+    "example": "examples"
+  },
+  "bin": {},
+  "maintainers": [
+    {
+      "name": "Pratham Mahajan",
+      "email": "mahajanpratham88@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2024-01-01T00:00:00.000Z",
+    "created": "2024-01-01T00:00:00.000Z",
+    "1.0.0": "2024-01-01T00:00:00.000Z"
+  },
+  "dist": {
+    "shasum": "sha512-...",
+    "tarball": "https://registry.npmjs.org/@pm/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz"
+  },
+  "gitHead": "abc123...",
+  "_id": "@pm/rate-limiter-advanced@1.0.0",
+  "_nodeVersion": "22.11.0",
+  "_npmVersion": "10.0.0",
+  "_npmUser": {
+    "name": "prathammahajan",
+    "email": "mahajanpratham88@gmail.com"
+  },
+  "_hasShrinkwrap": false,
+  "_resolved": "https://registry.npmjs.org/@pm/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz",
+  "_integrity": "sha512-...",
+  "_shasum": "sha512-...",
+  "_from": "@pm/rate-limiter-advanced@1.0.0",
+  "_inBundle": false,
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@pm/rate-limiter-advanced@1.0.0",
+    "name": "@pm/rate-limiter-advanced",
+    "escapedName": "@pm%2Frate-limiter-advanced",
+    "scope": "@pm",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "1.0.0",
+  "_where": "/path/to/project"
+}
