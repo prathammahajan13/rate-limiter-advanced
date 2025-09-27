@@ -1,5 +1,5 @@
 {
-  "name": "@pm/rate-limiter-advanced",
+  "name": "@prathammahajan/rate-limiter-advanced",
   "version": "1.0.0",
   "description": "Security-focused IP-based rate limiter for detecting and banning hackers, bots, and malicious users. Features automatic IP banning, threat detection, analytics, and multi-channel alerts.",
   "main": "dist/index.js",
@@ -195,10 +195,10 @@
   },
   "dist": {
     "shasum": "sha512-...",
-    "tarball": "https://registry.npmjs.org/@pm/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz"
+    "tarball": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz"
   },
   "gitHead": "abc123...",
-  "_id": "@pm/rate-limiter-advanced@1.0.0",
+  "_id": "@prathammahajan/rate-limiter-advanced@1.0.0",
   "_nodeVersion": "22.11.0",
   "_npmVersion": "10.0.0",
   "_npmUser": {
@@ -206,19 +206,19 @@
     "email": "mahajanpratham88@gmail.com"
   },
   "_hasShrinkwrap": false,
-  "_resolved": "https://registry.npmjs.org/@pm/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.0.tgz",
   "_integrity": "sha512-...",
   "_shasum": "sha512-...",
-  "_from": "@pm/rate-limiter-advanced@1.0.0",
+  "_from": "@prathammahajan/rate-limiter-advanced@1.0.0",
   "_inBundle": false,
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@pm/rate-limiter-advanced@1.0.0",
-    "name": "@pm/rate-limiter-advanced",
-    "escapedName": "@pm%2Frate-limiter-advanced",
-    "scope": "@pm",
+    "raw": "@prathammahajan/rate-limiter-advanced@1.0.0",
+    "name": "@prathammahajan/rate-limiter-advanced",
+    "escapedName": "@prathammahajan%2Frate-limiter-advanced",
+    "scope": "@prathammahajan",
     "rawSpec": "1.0.0",
     "saveSpec": null,
     "fetchSpec": "1.0.0"

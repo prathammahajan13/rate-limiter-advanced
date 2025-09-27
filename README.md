@@ -1,4 +1,4 @@
-# @pm/rate-limiter-advanced
+# @prathammahajan/rate-limiter-advanced
 
 [![npm version](https://badge.fury.io/js/%40pm%2Frate-limiter-advanced.svg)](https://badge.fury.io/js/%40pm%2Frate-limiter-advanced)
 [![Build Status](https://github.com/prathammahajan13/rate-limiter-advanced/workflows/CI/badge.svg)](https://github.com/prathammahajan13/rate-limiter-advanced/actions)
@@ -45,7 +45,7 @@ A comprehensive, enterprise-grade rate limiting solution designed specifically f
 ## 📦 Installation
 
 ```bash
-npm install @pm/rate-limiter-advanced
+npm install @prathammahajan/rate-limiter-advanced
 ```
 
 ### Peer Dependencies
@@ -66,7 +66,7 @@ npm install pg mysql2 sqlite3
 ### Basic Security Configuration
 
 ```typescript
-import { RateLimiter } from '@pm/rate-limiter-advanced';
+import { RateLimiter } from '@prathammahajan/rate-limiter-advanced';
 import express from 'express';
 
 const app = express();
@@ -128,7 +128,7 @@ app.listen(3000);
 ### Advanced Production Configuration
 
 ```typescript
-import { RateLimiter } from '@pm/rate-limiter-advanced';
+import { RateLimiter } from '@prathammahajan/rate-limiter-advanced';
 
 const rateLimiter = new RateLimiter({
   // Redis storage for production
@@ -717,7 +717,7 @@ import {
   StorageError, 
   ValidationError,
   BanError
-} from '@pm/rate-limiter-advanced';
+} from '@prathammahajan/rate-limiter-advanced';
 
 try {
   const result = await rateLimiter.checkRateLimit(ip, endpoint);
@@ -739,7 +739,7 @@ try {
 
 ### Unit Testing
 ```typescript
-import { RateLimiter } from '@pm/rate-limiter-advanced';
+import { RateLimiter } from '@prathammahajan/rate-limiter-advanced';
 
 describe('RateLimiter', () => {
   let rateLimiter: RateLimiter;
@@ -779,7 +779,7 @@ describe('RateLimiter', () => {
 ```typescript
 import request from 'supertest';
 import express from 'express';
-import { RateLimiter } from '@pm/rate-limiter-advanced';
+import { RateLimiter } from '@prathammahajan/rate-limiter-advanced';
 
 describe('Express Integration', () => {
   let app: express.Application;
@@ -885,8 +885,8 @@ const limiter = rateLimit({
   max: 100 // limit each IP to 100 requests per windowMs
 });
 
-// New @pm/rate-limiter-advanced
-import { RateLimiter } from '@pm/rate-limiter-advanced';
+// New @prathammahajan/rate-limiter-advanced
+import { RateLimiter } from '@prathammahajan/rate-limiter-advanced';
 
 const rateLimiter = new RateLimiter({
   storage: { type: 'memory', fallback: false },
@@ -914,7 +914,7 @@ const speedLimiter = slowDown({
   delayMs: 500 // begin adding 500ms of delay per request above 100
 });
 
-// New @pm/rate-limiter-advanced with escalation
+// New @prathammahajan/rate-limiter-advanced with escalation
 const rateLimiter = new RateLimiter({
   storage: { type: 'memory', fallback: false },
   rules: {

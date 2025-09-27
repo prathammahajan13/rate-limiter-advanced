@@ -5,7 +5,7 @@
  * Optimized for detecting and banning hackers, bots, and malicious users
  */
 
-import { RateLimiter, IPUtils, BanManager, MemoryStorage } from '@pm/rate-limiter-advanced';
+import { RateLimiter, IPUtils, BanManager, MemoryStorage } from '@prathammahajan/rate-limiter-advanced';
 
 // Security-focused configuration
 const securityConfig = {
