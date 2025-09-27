@@ -1,7 +1,6 @@
 # @prathammahajan/rate-limiter-advanced
 
 [![npm version](https://badge.fury.io/js/%40prathammahajan%2Frate-limiter-advanced.svg)](https://badge.fury.io/js/%40prathammahajan%2Frate-limiter-advanced)
-[![Build Status](https://github.com/prathammahajan13/rate-limiter-advanced/workflows/CI/badge.svg)](https://github.com/prathammahajan13/rate-limiter-advanced/actions)
 [![Coverage Status](https://coveralls.io/repos/github/prathammahajan13/rate-limiter-advanced/badge.svg?branch=main)](https://coveralls.io/github/prathammahajan13/rate-limiter-advanced?branch=main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
@@ -984,7 +983,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📈 Changelog
 
-### v1.0.1 (2024-01-XX)
+### v1.0.2 (2024-01-XX)
 - 🎉 Initial release
 - ✅ Core rate limiting functionality
 - ✅ Automatic IP banning with escalation

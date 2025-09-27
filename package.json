@@ -1,6 +1,6 @@
 {
   "name": "@prathammahajan/rate-limiter-advanced",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Security-focused IP-based rate limiter for detecting and banning hackers, bots, and malicious users. Features automatic IP banning, threat detection, analytics, and multi-channel alerts.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -191,14 +191,14 @@
   "time": {
     "modified": "2024-01-01T00:00:00.000Z",
     "created": "2024-01-01T00:00:00.000Z",
-    "1.0.1": "2024-01-01T00:00:00.000Z"
+    "1.0.2": "2024-01-01T00:00:00.000Z"
   },
   "dist": {
     "shasum": "sha512-...",
-    "tarball": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.1.tgz"
+    "tarball": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.2.tgz"
   },
   "gitHead": "abc123...",
-  "_id": "@prathammahajan/rate-limiter-advanced@1.0.1",
+  "_id": "@prathammahajan/rate-limiter-advanced@1.0.2",
   "_nodeVersion": "22.11.0",
   "_npmVersion": "10.0.0",
   "_npmUser": {
@@ -206,27 +206,27 @@
     "email": "mahajanpratham88@gmail.com"
   },
   "_hasShrinkwrap": false,
-  "_resolved": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/@prathammahajan/rate-limiter-advanced/-/rate-limiter-advanced-1.0.2.tgz",
   "_integrity": "sha512-...",
   "_shasum": "sha512-...",
-  "_from": "@prathammahajan/rate-limiter-advanced@1.0.1",
+  "_from": "@prathammahajan/rate-limiter-advanced@1.0.2",
   "_inBundle": false,
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@prathammahajan/rate-limiter-advanced@1.0.1",
+    "raw": "@prathammahajan/rate-limiter-advanced@1.0.2",
     "name": "@prathammahajan/rate-limiter-advanced",
     "escapedName": "@prathammahajan%2Frate-limiter-advanced",
     "scope": "@prathammahajan",
-    "rawSpec": "1.0.1",
+    "rawSpec": "1.0.2",
     "saveSpec": null,
-    "fetchSpec": "1.0.1"
+    "fetchSpec": "1.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_spec": "1.0.1",
+  "_spec": "1.0.2",
   "_where": "/path/to/project"
 }
