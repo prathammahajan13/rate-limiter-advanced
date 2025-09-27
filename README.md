@@ -981,23 +981,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - Inspired by the need for better security in modern web applications
 - Thanks to all contributors and the open-source community
 
-## 📈 Changelog
-
-### v1.0.2 (2024-01-XX)
-- 🎉 Initial release
-- ✅ Core rate limiting functionality
-- ✅ Automatic IP banning with escalation
-- ✅ Redis and database support
-- ✅ Analytics and monitoring
-- ✅ Multi-channel notifications
-- ✅ Whitelist/blacklist management
-- ✅ Express.js middleware integration
-- ✅ TypeScript support
-- ✅ Comprehensive test suite
-- ✅ Security-focused features
-
----
-
 **Made with ❤️ for the security community**
 
 [![GitHub stars](https://img.shields.io/github/stars/prathammahajan13/rate-limiter-advanced.svg?style=social&label=Star)](https://github.com/prathammahajan13/rate-limiter-advanced)

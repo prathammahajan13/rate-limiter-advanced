@@ -81,7 +81,7 @@ export class WebhookNotifier extends EventEmitter {
       message,
       data: options.data,
       source: 'rate-limiter-advanced',
-      version: '1.0.2',
+      version: '1.0.3',
     };
 
     // Add signature if secret is configured
@@ -121,7 +121,7 @@ export class WebhookNotifier extends EventEmitter {
       try {
         const headers: Record<string, string> = {
           'Content-Type': 'application/json',
-          'User-Agent': 'Rate-Limiter-Advanced/1.0.2',
+          'User-Agent': 'Rate-Limiter-Advanced/1.0.3',
           ...this.config.headers,
           ...options.headers,
         };
@@ -211,7 +211,7 @@ export class WebhookNotifier extends EventEmitter {
       type: 'test',
       data: {
         timestamp: new Date().toISOString(),
-        version: '1.0.2',
+        version: '1.0.3',
         test: true,
       },
     });

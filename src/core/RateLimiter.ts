@@ -529,7 +529,7 @@ export class RateLimiter extends EventEmitter {
       status,
       components,
       uptime: Date.now() - startTime,
-      version: '1.0.2',
+      version: '1.0.3',
     };
   }
 

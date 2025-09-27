@@ -211,7 +211,7 @@ export class SlackNotifier extends EventEmitter {
       type: 'test',
       data: {
         timestamp: new Date().toISOString(),
-        version: '1.0.2',
+        version: '1.0.3',
       },
     });
   }

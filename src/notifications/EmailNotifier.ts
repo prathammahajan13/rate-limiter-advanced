@@ -183,7 +183,7 @@ export class EmailNotifier extends EventEmitter {
           ${html}
         </div>
         <div class="footer">
-          <p>This is an automated message from Rate Limiter Advanced v1.0.2</p>
+          <p>This is an automated message from Rate Limiter Advanced v1.0.3</p>
           <p>Generated at: ${new Date().toISOString()}</p>
         </div>
       </body>
@@ -300,7 +300,7 @@ export class EmailNotifier extends EventEmitter {
       type: 'test',
       data: {
         timestamp: new Date().toISOString(),
-        version: '1.0.2',
+        version: '1.0.3',
         test: true,
       },
     });
