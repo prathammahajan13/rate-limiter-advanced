@@ -984,7 +984,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📈 Changelog
 
-### v1.0.0 (2024-01-XX)
+### v1.0.1 (2024-01-XX)
 - 🎉 Initial release
 - ✅ Core rate limiting functionality
 - ✅ Automatic IP banning with escalation
